@@ -83,7 +83,7 @@ def main():
     install_python()
     download_get_pip()
     install_pip()
-    packages_to_install = ["pynput"]
+    packages_to_install = ["placeholder have whatever packages you want to install."]
     install_packages(packages_to_install)
     remove_lock_file()
     time.sleep(2)
